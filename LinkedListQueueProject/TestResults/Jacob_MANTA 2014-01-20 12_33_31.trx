@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="42c78293-54aa-4de6-8c5a-1406bca6c2f2" name="Jacob@MANTA 2014-01-20 12:33:31" runUser="MANTA\Jacob" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cbdc99a1-1f24-40e3-ba89-44dab7a2eb12">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Jacob_MANTA 2014-01-20 12_33_31">
+      <DeploymentItem filename="c:\users\jacob\documents\visual studio 2010\Projects\LinkedListQueueProject\LinkedListQueueProject\bin\Debug\LinkedListQueueProject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-20T12:33:31.6919187-06:00" queuing="2014-01-20T12:33:31.7030920-06:00" start="2014-01-20T12:33:31.7059180-06:00" finish="2014-01-20T12:33:31.8830445-06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="14" executed="14" passed="14" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldBeAbleToCreateNodesWithNames" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="73e15b9f-3684-1b00-0ae0-6e777dc87c11">
+      <Execution id="f18693cb-3f21-42c7-a91e-49c4fa032b1a" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.NodeTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBeAbleToCreateNodesWithNames" />
+    </UnitTest>
+    <UnitTest name="HeadMethodShouldReturnHeadNode" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="d1776204-a50e-1217-7175-95fca87297d1">
+      <Execution id="bddf555b-807e-4dc5-a905-32a0cf62dfc7" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.LinkedListQueueTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HeadMethodShouldReturnHeadNode" />
+    </UnitTest>
+    <UnitTest name="GetNameShouldReturnAName" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="14586cee-3adb-8ba8-b681-9889153d460a">
+      <Execution id="078c23ee-aaa0-4257-aef5-54dd585bc4bb" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.NodeTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetNameShouldReturnAName" />
+    </UnitTest>
+    <UnitTest name="DequeueShouldCreateNewHeadNode" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="8ae4aee8-2123-fb66-d340-87c2f40d0e5d">
+      <Execution id="584c6a37-4780-4025-bdc3-38367303e5f7" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.LinkedListQueueTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DequeueShouldCreateNewHeadNode" />
+    </UnitTest>
+    <UnitTest name="ShouldBeAbleToCreateNodesWithNextNodes" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="fdd77d2c-d57c-f1cb-b178-ef37f15093cb">
+      <Execution id="67f198e2-6424-4e04-926c-5cc2495c54b5" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.NodeTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBeAbleToCreateNodesWithNextNodes" />
+    </UnitTest>
+    <UnitTest name="SetNamesShouldChangeTheName" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="dd3b011a-61ea-44e6-4650-dc9d8d3cf05c">
+      <Execution id="9af22ccb-62e3-4ac5-9f93-c122b20d63ff" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.NodeTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SetNamesShouldChangeTheName" />
+    </UnitTest>
+    <UnitTest name="ShouldBeAbleToCreateNodes" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="1d6b2bd8-3b8a-9e65-6d10-cf27e8523598">
+      <Execution id="4121b329-1323-4ba4-a68a-adb4ec9c3fc0" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.NodeTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBeAbleToCreateNodes" />
+    </UnitTest>
+    <UnitTest name="LinkedListQueueConstructorTest" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="7bb9d228-8e50-7876-e2f7-9e8cfbb85167">
+      <Execution id="f51c9c94-be8b-44af-b500-307079d992ac" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.LinkedListQueueTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LinkedListQueueConstructorTest" />
+    </UnitTest>
+    <UnitTest name="FindShouldReturnDesiredNode" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="0dfd78de-e5c1-c74c-a152-fd356d88d7a2">
+      <Execution id="fbff24a0-0e42-4b9c-9b38-46d4363dd8cb" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.LinkedListQueueTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindShouldReturnDesiredNode" />
+    </UnitTest>
+    <UnitTest name="DequeueShouldReturnHeadNode" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="f37e1ef7-2f0e-3581-34f0-f5472e6bfe7c">
+      <Execution id="853f8a2d-ffa3-45e1-81c6-9290634728a2" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.LinkedListQueueTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DequeueShouldReturnHeadNode" />
+    </UnitTest>
+    <UnitTest name="EnqueueShouldTakeANode" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="afad4eff-e3a9-fc6d-d441-26bd438a489b">
+      <Execution id="248717dd-5b26-4d90-bbaf-2cd89963d00a" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.LinkedListQueueTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EnqueueShouldTakeANode" />
+    </UnitTest>
+    <UnitTest name="EnqueueShouldAddPreviousTailToNewTailsNextNode" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="a14a2c93-7cbc-9b40-51c7-07d229970091">
+      <Execution id="fafea290-bcb1-4b68-8cf7-0c2af66cdd9e" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.LinkedListQueueTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EnqueueShouldAddPreviousTailToNewTailsNextNode" />
+    </UnitTest>
+    <UnitTest name="TailShouldReturnLastNodeInQueue" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="7af559c6-30cb-3c6c-c619-926d8a6a7847">
+      <Execution id="2be6b98f-e865-484e-8a27-7b24718a2966" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.LinkedListQueueTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TailShouldReturnLastNodeInQueue" />
+    </UnitTest>
+    <UnitTest name="ShouldBeAbleToGetAndSetNextNode" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="5373455d-45db-29d0-b572-6ee8f80a0b06">
+      <Execution id="bfc3b743-6d35-4b99-9fd8-069726be504e" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.NodeTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBeAbleToGetAndSetNextNode" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dd3b011a-61ea-44e6-4650-dc9d8d3cf05c" executionId="9af22ccb-62e3-4ac5-9f93-c122b20d63ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1776204-a50e-1217-7175-95fca87297d1" executionId="bddf555b-807e-4dc5-a905-32a0cf62dfc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a14a2c93-7cbc-9b40-51c7-07d229970091" executionId="fafea290-bcb1-4b68-8cf7-0c2af66cdd9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d6b2bd8-3b8a-9e65-6d10-cf27e8523598" executionId="4121b329-1323-4ba4-a68a-adb4ec9c3fc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afad4eff-e3a9-fc6d-d441-26bd438a489b" executionId="248717dd-5b26-4d90-bbaf-2cd89963d00a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f37e1ef7-2f0e-3581-34f0-f5472e6bfe7c" executionId="853f8a2d-ffa3-45e1-81c6-9290634728a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5373455d-45db-29d0-b572-6ee8f80a0b06" executionId="bfc3b743-6d35-4b99-9fd8-069726be504e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fdd77d2c-d57c-f1cb-b178-ef37f15093cb" executionId="67f198e2-6424-4e04-926c-5cc2495c54b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14586cee-3adb-8ba8-b681-9889153d460a" executionId="078c23ee-aaa0-4257-aef5-54dd585bc4bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7af559c6-30cb-3c6c-c619-926d8a6a7847" executionId="2be6b98f-e865-484e-8a27-7b24718a2966" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73e15b9f-3684-1b00-0ae0-6e777dc87c11" executionId="f18693cb-3f21-42c7-a91e-49c4fa032b1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0dfd78de-e5c1-c74c-a152-fd356d88d7a2" executionId="fbff24a0-0e42-4b9c-9b38-46d4363dd8cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ae4aee8-2123-fb66-d340-87c2f40d0e5d" executionId="584c6a37-4780-4025-bdc3-38367303e5f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bb9d228-8e50-7876-e2f7-9e8cfbb85167" executionId="f51c9c94-be8b-44af-b500-307079d992ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9af22ccb-62e3-4ac5-9f93-c122b20d63ff" testId="dd3b011a-61ea-44e6-4650-dc9d8d3cf05c" testName="SetNamesShouldChangeTheName" computerName="MANTA" duration="00:00:00.0097983" startTime="2014-01-20T12:33:31.7079198-06:00" endTime="2014-01-20T12:33:31.8320204-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9af22ccb-62e3-4ac5-9f93-c122b20d63ff">
+    </UnitTestResult>
+    <UnitTestResult executionId="bddf555b-807e-4dc5-a905-32a0cf62dfc7" testId="d1776204-a50e-1217-7175-95fca87297d1" testName="HeadMethodShouldReturnHeadNode" computerName="MANTA" duration="00:00:00.0005191" startTime="2014-01-20T12:33:31.8320204-06:00" endTime="2014-01-20T12:33:31.8350110-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bddf555b-807e-4dc5-a905-32a0cf62dfc7">
+    </UnitTestResult>
+    <UnitTestResult executionId="fafea290-bcb1-4b68-8cf7-0c2af66cdd9e" testId="a14a2c93-7cbc-9b40-51c7-07d229970091" testName="EnqueueShouldAddPreviousTailToNewTailsNextNode" computerName="MANTA" duration="00:00:00.0001620" startTime="2014-01-20T12:33:31.8360100-06:00" endTime="2014-01-20T12:33:31.8390300-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fafea290-bcb1-4b68-8cf7-0c2af66cdd9e">
+    </UnitTestResult>
+    <UnitTestResult executionId="4121b329-1323-4ba4-a68a-adb4ec9c3fc0" testId="1d6b2bd8-3b8a-9e65-6d10-cf27e8523598" testName="ShouldBeAbleToCreateNodes" computerName="MANTA" duration="00:00:00.0001107" startTime="2014-01-20T12:33:31.8390300-06:00" endTime="2014-01-20T12:33:31.8420163-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4121b329-1323-4ba4-a68a-adb4ec9c3fc0">
+    </UnitTestResult>
+    <UnitTestResult executionId="248717dd-5b26-4d90-bbaf-2cd89963d00a" testId="afad4eff-e3a9-fc6d-d441-26bd438a489b" testName="EnqueueShouldTakeANode" computerName="MANTA" duration="00:00:00.0001167" startTime="2014-01-20T12:33:31.8420163-06:00" endTime="2014-01-20T12:33:31.8450168-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="248717dd-5b26-4d90-bbaf-2cd89963d00a">
+    </UnitTestResult>
+    <UnitTestResult executionId="853f8a2d-ffa3-45e1-81c6-9290634728a2" testId="f37e1ef7-2f0e-3581-34f0-f5472e6bfe7c" testName="DequeueShouldReturnHeadNode" computerName="MANTA" duration="00:00:00.0002972" startTime="2014-01-20T12:33:31.8450168-06:00" endTime="2014-01-20T12:33:31.8480185-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="853f8a2d-ffa3-45e1-81c6-9290634728a2">
+    </UnitTestResult>
+    <UnitTestResult executionId="bfc3b743-6d35-4b99-9fd8-069726be504e" testId="5373455d-45db-29d0-b572-6ee8f80a0b06" testName="ShouldBeAbleToGetAndSetNextNode" computerName="MANTA" duration="00:00:00.0002360" startTime="2014-01-20T12:33:31.8490350-06:00" endTime="2014-01-20T12:33:31.8510398-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bfc3b743-6d35-4b99-9fd8-069726be504e">
+    </UnitTestResult>
+    <UnitTestResult executionId="67f198e2-6424-4e04-926c-5cc2495c54b5" testId="fdd77d2c-d57c-f1cb-b178-ef37f15093cb" testName="ShouldBeAbleToCreateNodesWithNextNodes" computerName="MANTA" duration="00:00:00.0001796" startTime="2014-01-20T12:33:31.8520213-06:00" endTime="2014-01-20T12:33:31.8550367-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67f198e2-6424-4e04-926c-5cc2495c54b5">
+    </UnitTestResult>
+    <UnitTestResult executionId="078c23ee-aaa0-4257-aef5-54dd585bc4bb" testId="14586cee-3adb-8ba8-b681-9889153d460a" testName="GetNameShouldReturnAName" computerName="MANTA" duration="00:00:00.0001398" startTime="2014-01-20T12:33:31.8550367-06:00" endTime="2014-01-20T12:33:31.8580388-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="078c23ee-aaa0-4257-aef5-54dd585bc4bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="2be6b98f-e865-484e-8a27-7b24718a2966" testId="7af559c6-30cb-3c6c-c619-926d8a6a7847" testName="TailShouldReturnLastNodeInQueue" computerName="MANTA" duration="00:00:00.0001915" startTime="2014-01-20T12:33:31.8580388-06:00" endTime="2014-01-20T12:33:31.8610405-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2be6b98f-e865-484e-8a27-7b24718a2966">
+    </UnitTestResult>
+    <UnitTestResult executionId="f18693cb-3f21-42c7-a91e-49c4fa032b1a" testId="73e15b9f-3684-1b00-0ae0-6e777dc87c11" testName="ShouldBeAbleToCreateNodesWithNames" computerName="MANTA" duration="00:00:00.0001069" startTime="2014-01-20T12:33:31.8610405-06:00" endTime="2014-01-20T12:33:31.8640319-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f18693cb-3f21-42c7-a91e-49c4fa032b1a">
+    </UnitTestResult>
+    <UnitTestResult executionId="fbff24a0-0e42-4b9c-9b38-46d4363dd8cb" testId="0dfd78de-e5c1-c74c-a152-fd356d88d7a2" testName="FindShouldReturnDesiredNode" computerName="MANTA" duration="00:00:00.0003622" startTime="2014-01-20T12:33:31.8640319-06:00" endTime="2014-01-20T12:33:31.8670319-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fbff24a0-0e42-4b9c-9b38-46d4363dd8cb">
+    </UnitTestResult>
+    <UnitTestResult executionId="584c6a37-4780-4025-bdc3-38367303e5f7" testId="8ae4aee8-2123-fb66-d340-87c2f40d0e5d" testName="DequeueShouldCreateNewHeadNode" computerName="MANTA" duration="00:00:00.0001680" startTime="2014-01-20T12:33:31.8680347-06:00" endTime="2014-01-20T12:33:31.8700469-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="584c6a37-4780-4025-bdc3-38367303e5f7">
+    </UnitTestResult>
+    <UnitTestResult executionId="f51c9c94-be8b-44af-b500-307079d992ac" testId="7bb9d228-8e50-7876-e2f7-9e8cfbb85167" testName="LinkedListQueueConstructorTest" computerName="MANTA" duration="00:00:00.0001022" startTime="2014-01-20T12:33:31.8710347-06:00" endTime="2014-01-20T12:33:31.8730494-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f51c9c94-be8b-44af-b500-307079d992ac">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1d6aa5e8-c65c-4fc1-8e2e-2af0070244a5" name="Jacob@MANTA 2014-01-20 12:33:16" runUser="MANTA\Jacob" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cbdc99a1-1f24-40e3-ba89-44dab7a2eb12">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="c:\users\jacob\documents\visual studio 2010\Projects\LinkedListQueueProject\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Jacob_MANTA 2014-01-20 12_33_16">
+      <DeploymentItem filename="c:\users\jacob\documents\visual studio 2010\Projects\LinkedListQueueProject\LinkedListQueueProject\bin\Debug\LinkedListQueueProject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-20T12:33:16.8658110-06:00" queuing="2014-01-20T12:33:16.8708034-06:00" start="2014-01-20T12:33:16.8748049-06:00" finish="2014-01-20T12:33:17.0088993-06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FindShouldReturnDesiredNode" storage="c:\users\jacob\documents\visual studio 2010\projects\linkedlistqueueproject\linkedlistqueuetests\bin\debug\linkedlistqueuetests.dll" id="0dfd78de-e5c1-c74c-a152-fd356d88d7a2">
+      <Execution id="7f0f6440-6563-44cc-9a42-beab352ec0bb" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/LinkedListQueueProject/LinkedListQueueTests/bin/Debug/LinkedListQueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LinkedListQueueTests.LinkedListQueueTest, LinkedListQueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindShouldReturnDesiredNode" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0dfd78de-e5c1-c74c-a152-fd356d88d7a2" executionId="7f0f6440-6563-44cc-9a42-beab352ec0bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7f0f6440-6563-44cc-9a42-beab352ec0bb" testId="0dfd78de-e5c1-c74c-a152-fd356d88d7a2" testName="FindShouldReturnDesiredNode" computerName="MANTA" duration="00:00:00.0101691" startTime="2014-01-20T12:33:16.8758056-06:00" endTime="2014-01-20T12:33:17.0018944-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f0f6440-6563-44cc-9a42-beab352ec0bb">
+    </UnitTestResult>
+  </Results>
+</TestRun>

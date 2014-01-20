@@ -1,0 +1,7 @@
+c:\users\jacob\documents\visual studio 2010\Projects\LinkedListQueueProject\LinkedListQueueTests\bin\Debug\LinkedListQueueTests.dll
+c:\users\jacob\documents\visual studio 2010\Projects\LinkedListQueueProject\LinkedListQueueTests\bin\Debug\LinkedListQueueTests.pdb
+c:\users\jacob\documents\visual studio 2010\Projects\LinkedListQueueProject\LinkedListQueueTests\bin\Debug\LinkedListQueueProject.dll
+c:\users\jacob\documents\visual studio 2010\Projects\LinkedListQueueProject\LinkedListQueueTests\bin\Debug\LinkedListQueueProject.pdb
+c:\users\jacob\documents\visual studio 2010\Projects\LinkedListQueueProject\LinkedListQueueTests\obj\Debug\LinkedListQueueTests.csprojResolveAssemblyReference.cache
+c:\users\jacob\documents\visual studio 2010\Projects\LinkedListQueueProject\LinkedListQueueTests\obj\Debug\LinkedListQueueTests.dll
+c:\users\jacob\documents\visual studio 2010\Projects\LinkedListQueueProject\LinkedListQueueTests\obj\Debug\LinkedListQueueTests.pdb

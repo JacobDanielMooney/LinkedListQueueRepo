@@ -1,0 +1,5 @@
+c:\users\jacob\documents\visual studio 2010\Projects\LinkedListQueueProject\LinkedListQueueProject\bin\Debug\LinkedListQueueProject.dll
+c:\users\jacob\documents\visual studio 2010\Projects\LinkedListQueueProject\LinkedListQueueProject\bin\Debug\LinkedListQueueProject.pdb
+c:\users\jacob\documents\visual studio 2010\Projects\LinkedListQueueProject\LinkedListQueueProject\obj\Debug\LinkedListQueueProject.dll
+c:\users\jacob\documents\visual studio 2010\Projects\LinkedListQueueProject\LinkedListQueueProject\obj\Debug\LinkedListQueueProject.pdb
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\LinkedListQueueProject\LinkedListQueueProject\obj\Debug\LinkedListQueueProject.csprojResolveAssemblyReference.cache
